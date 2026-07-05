@@ -8,7 +8,7 @@ interface ContactProps {
 
 export function Contact({ contact }: ContactProps) {
   const phone = contact?.phone ?? "+91 7982023117";
-  const email = contact?.email ?? "ajit.sharma@sgspl.cloud";
+  const email = contact?.email ?? "sales@sgspl.cloud";
   const address = contact?.address ?? "India";
   const officeHours = contact?.officeHours ?? "Mon–Sat, 9am–7pm IST";
 
